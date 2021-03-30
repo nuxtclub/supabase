@@ -17,5 +17,8 @@
 	"bugs": "https://github.com/nuxtclub/supabase/issues",
 	"dependencies": {
 		"@supabase/supabase-js": "^1.7.6"
+	},
+	"publishConfig": {
+		"access": "public"
 	}
 }
