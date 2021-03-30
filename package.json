@@ -4,6 +4,11 @@
 	"license": "MIT",
 	"description": "An easy way to integrate Supabase with NuxtJS",
 	"version": "0.1.0",
+	"keywords": [
+		"nuxt",
+		"supabase",
+		"module"
+	],
 	"main": "lib/module.js",
 	"files": [
 		"lib",
