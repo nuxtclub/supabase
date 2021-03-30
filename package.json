@@ -1,0 +1,17 @@
+{
+	"name": "@nuxtclub/supabase",
+	"author": "Lautaro Pereyra <dev.lautaropereyra@gmail.com>",
+	"license": "MIT",
+	"description": "An easy way to integrate Supabase with NuxtJS",
+	"version": "0.1.0",
+	"main": "lib/module.js",
+	"files": [
+		"lib",
+		"types/*.d.ts"
+	],
+	"types": "types/index.d.ts",
+	"repository": "nuxtclub/supabase",
+	"dependencies": {
+		"@supabase/supabase-js": "^1.7.6"
+	}
+}
