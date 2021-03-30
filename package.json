@@ -10,7 +10,11 @@
 		"types/*.d.ts"
 	],
 	"types": "types/index.d.ts",
-	"repository": "nuxtclub/supabase",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/nuxtclub/supabase.git"
+	},
+	"bugs": "https://github.com/nuxtclub/supabase/issues",
 	"dependencies": {
 		"@supabase/supabase-js": "^1.7.6"
 	}
