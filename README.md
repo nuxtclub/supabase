@@ -73,6 +73,10 @@ This module will inject $supabase in the context of your application.
 
 Using $supabase you can access to the SupabaseClient object of the [Supabase Client for JavaScript](https://supabase.io/docs/reference/javascript/supabase-client).
 
+### Shortcuts
+
+This module also inject $supaAuth & $supaStorage that are nothing more than a shorcut for $supabase.auth and $supabase.storage.
+
 ## Examples
 
 ### Fetching data
