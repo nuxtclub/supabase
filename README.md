@@ -95,7 +95,7 @@ This module also inject $supaAuth & $supaStorage that are nothing more than a sh
 
 <script>
 export default {
-	middleware: 'auth',
+	middleware: 'authenticated',
 	async asyncData({ $supabase }) {
 		const { data } = await $supabase.from('recipes').select('*')
 		return { recipes: data }
