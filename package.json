@@ -3,7 +3,7 @@
 	"author": "Lautaro Pereyra <dev.lautaropereyra@gmail.com>",
 	"license": "MIT",
 	"description": "An easy way to integrate Supabase with NuxtJS",
-	"version": "1.0.1",
+	"version": "1.1.0",
 	"keywords": [
 		"nuxt",
 		"supabase",
@@ -21,7 +21,7 @@
 	},
 	"bugs": "https://github.com/nuxtclub/supabase/issues",
 	"dependencies": {
-		"@supabase/supabase-js": "^1.7.6"
+		"@supabase/supabase-js": "^1.21.0"
 	},
 	"publishConfig": {
 		"access": "public"

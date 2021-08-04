@@ -1,6 +1,6 @@
 import { SupabaseClient } from '@supabase/supabase-js'
 import { SupabaseAuthClient } from '@supabase/supabase-js/dist/main/lib/SupabaseAuthClient'
-import { SupabaseStorageClient } from '@supabase/supabase-js/dist/main/lib/SupabaseStorageClient'
+import { SupabaseStorageClient } from '@supabase/storage-js/dist/main/SupabaseStorageClient'
 
 declare module '@nuxt/vue-app' {
 	interface Context {
