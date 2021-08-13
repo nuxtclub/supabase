@@ -2,6 +2,17 @@ import { SupabaseClient } from '@supabase/supabase-js'
 import { SupabaseAuthClient } from '@supabase/supabase-js/dist/main/lib/SupabaseAuthClient'
 import { SupabaseStorageClient } from '@supabase/storage-js/dist/main/SupabaseStorageClient'
 
+interface SupabaseConfig {
+	url: string
+	key: string
+}
+
+declare module '@nuxt/types/config/index' {
+	interface NuxtOptions {
+		supabase: SupabaseConfig
+	}
+}
+
 declare module '@nuxt/vue-app' {
 	interface Context {
 		$supabase: SupabaseClient
