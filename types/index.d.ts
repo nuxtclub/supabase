@@ -21,6 +21,14 @@ declare module '@nuxt/vue-app' {
 	}
 }
 
+declare module '#app' {
+	interface NuxtApp {
+		$supabase: SupabaseClient
+		$supaAuth: SupabaseAuthClient
+		$supaStorage: SupabaseStorageClient
+	}
+}
+
 declare module '@nuxt/types' {
 	interface Context {
 		$supabase: SupabaseClient
