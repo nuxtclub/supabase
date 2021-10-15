@@ -29,6 +29,14 @@ declare module '#app' {
 	}
 }
 
+declare module 'nuxt3' {
+	interface NuxtApp {
+		$supabase: SupabaseClient
+		$supaAuth: SupabaseAuthClient
+		$supaStorage: SupabaseStorageClient
+	}
+}
+
 declare module '@nuxt/types' {
 	interface Context {
 		$supabase: SupabaseClient
